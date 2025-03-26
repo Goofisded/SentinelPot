@@ -1,0 +1,6 @@
+socketserver
+logging
+requests
+datetime
+json
+colorama
