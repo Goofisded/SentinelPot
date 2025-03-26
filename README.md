@@ -23,7 +23,6 @@ pip install -r requirements.txt
 The required dependencies are listed in `requirements.txt`:
 
 ```
-logging
 requests
 colorama
 
