@@ -39,8 +39,8 @@ colorama
 
 1️⃣ **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/honeypot.git
-cd honeypot
+git clone https://github.com/Goofisded/SentinelPot.git
+cd SentinelPot
 ```
 
 2️⃣ **Install dependencies:**
@@ -49,16 +49,16 @@ pip install -r requirements.txt
 ```
 
 3️⃣ **Configure Discord Webhook:**
-- Open `config.py` (or inside `honeypot.py`) and replace `DISCORD_WEBHOOK_URL` with your own webhook.
+- Open `honeypot.py` and replace `WEBHOOK_URL` with your own webhook.
 
 4️⃣ **Run the honeypot:**
 ```bash
-python honeypot.py
+python SentinelPot.py
 ```
 
 5️⃣ **Simulate an attack:** (Run this from another machine)
 ```bash
-nc -v <your-public-ip> 2222
+nc -v <ip> 2222
 ```
 
 ---
@@ -77,12 +77,12 @@ Want to improve the project? Follow these steps:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
 ## 📧 Contact
 
-For issues or suggestions, open an issue on GitHub or contact me via Discord.
+For issues or suggestions, open an issue on GitHub or contact me via Discord: `goofisdead`.
 
 Happy hunting! 🕵️‍♂️
