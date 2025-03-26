@@ -23,12 +23,10 @@ pip install -r requirements.txt
 The required dependencies are listed in `requirements.txt`:
 
 ```
-socketserver
 logging
 requests
-datetime
-json
 colorama
+
 ```
 
 ---
