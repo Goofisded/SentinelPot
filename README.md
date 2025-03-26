@@ -8,8 +8,6 @@ An advanced Python-based honeypot that logs suspicious activity and sends real-t
 - **Detects unauthorized access attempts**
 - **Logs attacker activity and commands**
 - **Sends real-time alerts to a Discord webhook**
-- **User-friendly CLI output with color formatting**
-- **Prevents Discord API rate limit issues**
 - **Customizable listening ports & interface**
 
 ---
@@ -49,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 3️⃣ **Configure Discord Webhook:**
-- Open `honeypot.py` and replace `WEBHOOK_URL` with your own webhook.
+- Open `SentinelPot.py` and replace `WEBHOOK_URL` with your own webhook.
 
 4️⃣ **Run the honeypot:**
 ```bash
